@@ -2,19 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>PDF 1 Viewer</title>
+  <title>PDF Viewer</title>
   <style>
-    body, html { margin: 0; padding: 0; height: 100%; }
-    #pdf-viewer { width: 100vw; height: 100vh; border: none; }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #pdf-viewer {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
   </style>
 </head>
 <body>
 <iframe 
   id="pdf-viewer" 
-  title="PDF Document Viewer"
-  src="https://mozilla.github.io/pdf.js/web/viewer.html?scrollMode=1&zoom=page-width&file=https%3A%2F%2Fbalth4zar.github.io%2Fpdf-viewer%2FThequeensissuescans.pdf#page=1" 
+  src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https%3A%2F%2Fbalth4zar.github.io%2Fpdf-viewer%2FThequeensissuescans.pdf#page=1&zoom=page-width&scroll=horizontal" 
   frameborder="0">
-  <p>Your browser does not support embedded PDFs. <a href="https://balth4zar.github.io/pdf-viewer/Thequeensissuescans.pdf">Download PDF</a>.</p>
 </iframe>
 </body>
 </html>
